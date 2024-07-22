@@ -54,6 +54,11 @@ To build on this success, future work could focus on:
 2. **Enhancing the Model:** Experimenting with other YOLO variants or incorporating advanced techniques like ensemble methods.
 3. **Real-World Testing:** Deploying the model in real-world scenarios to validate its performance and reliability further.
 
+## Dataset
+```bash
+git clone https://github.com/Sourajit-Maity/juvdv2-vdvwc
+```
+
 ## Repository Structure
 ```
 - data/
@@ -107,7 +112,3 @@ python test.py --weights runs/train/exp/weights/best.pt --data vdvwc.yaml
 
 ## Acknowledgements
 We acknowledge the use of the YOLOv5 repository and its contributors for providing the base code and model for this project.
-
----
-
-For detailed information, please refer to the [project report](./ICDEC_Report.pdf).
